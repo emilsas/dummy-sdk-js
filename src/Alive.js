@@ -14,7 +14,6 @@ export default class Alive {
     /**
      * @param {Environment} environment the environment when this Alive thing is surviving
      * @return {Energy} the energy wasted in this surviving instance
-     * @link https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event context-menu
      * @method
      */
     survive() {
