@@ -21,7 +21,7 @@ jobs:
       - name: Check Linter 📑
         run: |
           npm ci
-          eslint . --ext .js,.jsx,.ts,.tsx
+          npx eslint . --ext .js,.jsx,.ts,.tsx
 
   test:
     needs: eslint
