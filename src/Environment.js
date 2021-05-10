@@ -4,27 +4,27 @@
  * @class
  */
 export default class Environment {
-    constructor() {
-        /**
-		 * All the living things in this environment
-		 * @type {Array<Alive>}
-		 */
-        this.livingThings = null;
-
-        /**
-		 * The name of this environment
-		 * @type {String}
-		 */
-        this.name = null;
-    }
+  constructor () {
+    /**
+     * All the living things in this environment
+     * @type {Array<Alive>}
+     */
+    this.livingThings = null
 
     /**
-     * Vestibulum condimentum tempus {@link Alive} diam.
-	 * @param {EnvironmentConfiguration} config
-	 */
-    start(config) {
+     * The name of this environment
+     * @type {String}
+     */
+    this.name = null
+  }
 
-    }
+  /**
+     * Vestibulum condimentum tempus {@link Alive} diam.
+   * @param {EnvironmentConfiguration} config
+   */
+  start (config) {
+
+  }
 }
 
 /**

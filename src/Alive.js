@@ -4,20 +4,21 @@
  * @class
  */
 export default class Alive {
-    constructor() {
-        /**
-         * amount of energy
-         * @property {Energy}
-         * @defaultvalue null
-         */
-        this.energy = null;
-    }
+  constructor () {
     /**
+     * amount of energy
+     * @property {Energy}
+     * @defaultvalue null
+     */
+    this.energy = null
+  }
+
+  /**
      * @param {Environment} environment the environment when this Alive thing is surviving
      * @return {Energy} the energy wasted in this surviving instance
      * @method
      */
-    survive() {
-        return null;
-    }
+  survive () {
+    return null
+  }
 }
