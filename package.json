@@ -10,7 +10,7 @@
     "start": "rollup -c -w",
     "build-docs": "jsdoc -c jsdoc.json -R docs-home.md",
     "pretest": "npm run build",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
