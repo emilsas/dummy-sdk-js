@@ -5,7 +5,6 @@ defineFeature(feature, test => {
   test('Test Jest works in Github actions', ({ given, when, then }) => {
     let a, b, result
 
-
     given('I have installed babel-jest', () => {
       a = 2
       b = 2
