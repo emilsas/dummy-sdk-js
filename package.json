@@ -12,6 +12,15 @@
     "pretest": "npm run build",
     "test": "jest --passWithNoTests"
   },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": [
+          ["@babel/preset-env", {"targets": {"node": 12}}]
+        ]
+      }
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com-emilsas:emilsas/dummy-sdk-js.git"
@@ -39,6 +48,7 @@
     "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-node-resolve": "^11.2.0",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
     "clean-jsdoc-theme": "^1.0.0",
     "eslint": "^7.21.0",
     "eslint-config-airbnb": "^18.2.1",
